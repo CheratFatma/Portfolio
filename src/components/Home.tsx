@@ -1,7 +1,16 @@
 import { Mail } from "lucide-react"
-import img from '../assets/img.jpg'
+import img from '../assets/img.png'
+import Contact from "./Contact";
 
-const Home = () => {
+
+
+import { useState } from "react";
+
+export default function Home() {
+  const [open, setOpen] = useState(false);
+
+
+
     return (
         <div id="Home" className="flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10">
 
@@ -16,12 +25,18 @@ const Home = () => {
                     Diplômée d’un Master en informatique. <br /> 
                     Disponible pour collaborer sur vos projets.
                 </p>
-                <a href="" className=" btn btn-accent md:w-fit">
+
+                <button onClick={() => setOpen(true)} className=" btn btn-accent md:w-fit">
                     <Mail className="w-5 h-5" />
-                    Contactez-moi
-                </a>
+                    Contactez-moi 
+                </button>
 
             </div>
+
+            <Contact 
+        isOpen={open} 
+        onClose={() => setOpen(false)} 
+      />
 
             <div className="md:ml-60">
                 <img src={img} alt="" className="w-96 h-96 object-cover border-8 border-accent shadow-xl" 
@@ -34,4 +49,3 @@ const Home = () => {
     )
 }
 
-export default Home

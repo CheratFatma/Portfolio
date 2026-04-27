@@ -1,5 +1,8 @@
 import Title from "./Title"
-import img from '../assets/img.jpg'
+import img1 from '../assets/img1.png'
+
+
+
 import { CalendarSync, LetterText, Paintbrush } from "lucide-react";
 
 const aboutSections = [
@@ -29,7 +32,7 @@ const About = () => {
             <Title title="À propos" />
             <div className="md:h-screen flex justify-center items-center ">
                 <div className="hidden md:block">
-                    <img src={img} alt="" className=" w-96 object-cover rounded-xl"
+                    <img src={img1} alt="" className=" w-96 object-cover rounded-xl"
                     />
                 </div>
 

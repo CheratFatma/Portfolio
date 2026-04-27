@@ -41,11 +41,11 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Todo List',
+        title: 'To-Do List',
         description:'Application de gestion de tâches développée avec Vue.js permettant de créer, organiser et suivre des listes de todos. Elle intègre un système d’authentification via API, la gestion complète des tâches (création, modification, suppression, complétion) ainsi que des fonctionnalités de filtrage et d’affichage du nombre de tâches restantes.',
         technologies: ['VueJS','JavaScript','HTML', 'CSS', ],
         demoLink: null,
-        repoLink: '#',
+        repoLink: 'https://github.com/CheratFatma/Todolist.git',
         image: img3,
     },
     {
@@ -98,7 +98,7 @@ const projects = [
     {
         id: 9,
         title: 'Personal Portfolio',
-        description: 'Déveoppement d’un site portfolio personnel mettant en valeur mes projets, compétences et expériences. Il est réalisé avec React et Vite, il utilise Tailwind CSS et DaisyUI pour un design moderne, responsive et cohérent. L’application repose sur des composants réutilisables, une navigation fluide et l’intégration d’icônes via lucide-react. Elle permet de consulter facilement et rapidement mes réalisations avec aperçus, liens GitHub et démonstrations interactives.',
+        description: 'Déveoppement d’un site portfolio personnel mettant en valeur mes projets, compétences et expériences. Il est réalisé avec React et Vite, il utilise Tailwind CSS et DaisyUI pour un design moderne, responsive et cohérent. L’application repose sur des composants réutilisables, une navigation fluide et optimisée, ainsi que l’intégration d’icônes via lucide-react. Elle permet de consulter facilement et rapidement mes réalisations avec aperçus, liens GitHub et démonstrations interactives.',
         technologies: ['Vite','React','daisyUI','Tailwind CSS'],
         demoLink: null,
         repoLink: 'https://github.com/CheratFatma/Portfolio.git',
